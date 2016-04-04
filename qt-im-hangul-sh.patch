@@ -1,0 +1,11 @@
+--- qimhangul-qimhangul-0.2.0/configure.ac.orig	2011-07-05 15:47:35.000000000 +0200
++++ qimhangul-qimhangul-0.2.0/configure.ac	2016-04-04 16:48:47.893056279 +0200
+@@ -46,7 +46,7 @@
+ 
+ # Check whether Qt is configured with X11
+ AC_MSG_CHECKING(whether Qt is configured with X11)
+-if pkg-config QtGui --variable=qt_config | grep x11 >& /dev/null; then
++if pkg-config QtGui --variable=qt_config | grep -q x11 2> /dev/null; then
+ 	qt_have_X11=yes
+ else
+ 	qt_have_X11=no
