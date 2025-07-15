@@ -42,7 +42,7 @@ Hangul.
 
 %prep
 %setup -q -n qimhangul-qimhangul-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__libtoolize}
