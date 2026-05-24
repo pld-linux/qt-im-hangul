@@ -2,7 +2,7 @@ Summary:	Input module of Qt for Korean using Hangul engine
 Summary(pl.UTF-8):	Moduł wejściowy Qt dla języka koreańskiego wykorzystujący silnik Hangul
 Name:		qt-im-hangul
 Version:	0.2.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Libraries
 #Source0Download: https://github.com/choehwanjin/qimhangul/releases
